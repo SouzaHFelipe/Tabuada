@@ -1,7 +1,7 @@
 const multiplicationForm = document.querySelector("#multiplication-form")
 const numberInput = document.querySelector("#number")
 const multiplicationInput = document.querySelector("#multiplicator")
-const multiplicationTabtle = document.querySelecor("#multiplication-operations")
+const multiplicationTable = document.querySelector("#multiplication-operations")
 
 const createTable = (number, multiplicatorNumber) => {
     multiplicationTable.innerHTML = "";
